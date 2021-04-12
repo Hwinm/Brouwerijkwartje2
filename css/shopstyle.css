@@ -1,0 +1,67 @@
+/*hero sectie*/
+.shopbanner{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    align-items: center;
+    background-color: #F6F6F6;
+
+}
+.bannershop{
+    flex: 1;
+}
+.bannerplaatje{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+.bannerplaatje img{
+    height: auto;
+    width: 100%;
+}
+.shoptekst{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+.shoptekst h1{
+    font-size: 30px;
+    text-align: center; 
+   
+}
+/* Alle bieren */
+.categories{
+    margin-top: 300px;
+}
+.bieren{
+    display: grid;
+    grid-template-columns: 500px 500px 500px;
+    justify-content: center;
+}
+.rechthoeken {
+    display: grid;
+    grid-template-columns: 500px 500px 500px;
+    gap: 30px;
+    justify-content: center;
+}
+.rechthoek{
+   width: 500px;
+   margin-top: 100px;
+}
+
+
+.rechthoek img{
+    height: 300px;    
+}
+.info-bier{
+    background-color: white;
+}
+
+.biereentje{ 
+    background-color: #F6F6F6;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

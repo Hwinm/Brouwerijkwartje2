@@ -1,0 +1,82 @@
+/* hero sectie */
+.contactbanner{
+    display: flex;
+    width: 100%;
+    background-color: #F6F6F6;
+
+}
+.contactstuk{
+    flex: 1; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contacttekst h1{
+    text-align: center;
+    font-size: 40px;
+}
+.contactplaatje{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+.contactplaatje img{
+    height: auto;
+    width: 100%;
+}
+/* Brouwerij email */
+.contact-tekst{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 200px;
+}
+/* Contact formulier */
+.contactform form{
+    width: 1000px;
+    margin-top: 200px;
+}
+
+.contactform{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+/* Voornaam en achternaam */
+.rij1 {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  
+}
+/* Email en telefoonnummer */
+.rij2 {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    
+}
+/* Globaal contact formulier */
+.input-vak{
+    width: 100%;
+    margin-top: 50px;
+}
+
+input[type=text]{
+    width: 100%;
+    background-color: #F6F6F6;
+    border:none;
+    height: 50px;
+    border-radius: 10px;
+}
+input[type=text]{
+    padding: 10px
+    
+}
+/* Opmerking */
+textarea {
+    width: 100%;
+    background-color: #F6F6F6;
+    border:none;
+    border-radius: 10px;
+}

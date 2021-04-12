@@ -1,0 +1,42 @@
+/*hero sectie*/
+.event-afbeelding{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.event-afbeelding img{
+    height: 600px;
+}
+
+.event-tekst{
+    width: 800px;
+    position: relative;
+    text-align: center;
+    margin: auto;
+}
+/* Alle evenementen */
+.event{
+    margin-top: 300px;
+}
+.event-zesgrid{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    gap: 150px;
+    justify-content: center;
+   margin-top: 200px;
+}
+
+.event-zesgrid img{
+    height: auto;
+    width: 100%;
+}
+.event .all-event{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  
+}
+.all-event h1, p, h4{
+    margin-top: 20px;
+}

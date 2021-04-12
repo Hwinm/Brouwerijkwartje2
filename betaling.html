@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Brouwerij Kwartje | Betaling</title>
+    
+</head>
+<body>
+    <header>
+        <!--navigatiebar-->
+        <div class="primair">
+            <div class="logo">
+                <a href="index.html"><img src="./images/logo-wit.jpg" alt="logo" height="80px"></a>
+            </div>
+        </div>
+        <div class="tweedenav">
+            <a href="#" class="huren">Huren</a> 
+            <a href="#popup2" class="winkelwagen"><img src="./icons/shopping-cart.png" alt="winkelwagen" height="25px"></a>
+        </div>
+    </header>
+    <main>
+        <!--Afrekenen-->
+        <div class="formulier-betalen">
+            <form>
+                <h1>Afrekenen</h1>
+                <!--Persoonllijke informatie-->
+                <div class="persinfo">
+                    <h1>Persoonlijke informatie</h1>
+                    <div class="rij1">
+                        <div class="input-vak">
+                            <div class="invul">Voornaam</div>
+                            <input type="text" required>
+                        </div> 
+                        <div class="input-vak">
+                            <div class="invul">Achternaam</div>
+                            <input type="text" required>
+                        </div> 
+                    </div>
+                    <div class="rij2">
+                        <div class="input-vak">
+                            <div class="invul">Email</div>
+                            <input type="text" required>
+                        </div> 
+                        <div class="input-vak">
+                            <div class="invul">Telefoonnummer</div>
+                            <input type="text" required>
+                        </div>
+                    </div> 
+                </div>
+                <!--Levering-->
+                <div class="levering">
+                    <h1>Levering</h1>
+                    <div class="input-vak">
+                        <div class="invul">Straat en huisnummer</div>
+                        <input type="text" required>
+                    </div> 
+                    <div class="rij1">
+                        <div class="input-vak">
+                            <div class="invul">Postcode</div>
+                            <input type="text" required>
+                        </div> 
+                        <div class="input-vak">
+                            <div class="invul">Plaats</div>
+                            <input type="text" required>
+                        </div> 
+                    </div>
+                    <div class="input-vak">
+                        <div class="invul">Land</div>
+                        <select id="dropkeuze" name="dropkeuze" class="dropkeuze" tabindex="11"> 
+                            <option disabled hidden selected>Kies je land</option>
+                            <option value="keuze">Nederland</option>
+                            <option value="keuze">Duitsland</option>
+                            <option value="keuze">Frankrijk</option>
+                        </select>
+                    </div> 
+                    <div class="input-vak">
+                        <div class="invul">Leverdatum</div>
+                        <select id="dropkeuze" name="dropkeuze" class="dropkeuze" tabindex="11">
+                            <option disabled hidden selected>Kies een datum</option>
+                            <option value="keuze">8 / 4 / 2021</option>
+                            <option value="keuze">9 / 4 / 2021</option>
+                            <option value="keuze">10 / 4 / 2021</option>
+                        </select>
+                    </div> 
+                </div>
+                <!--Betaling-->
+                <div class="bet">
+                    <h1>Betaling</h1>
+                    <div class="eentje">
+                        <input type="radio" id="betaal-keuze" name="kiezen" value="betaal-keuze">
+                        <label for="betaal-keuze">
+                            <select id="dropkeuze" name="dropkeuze" class="dropkeuze" tabindex="11">
+                                <option disabled hidden selected>Ideal</option>
+                                <option value="keuze">ING</option>
+                                <option value="keuze">ABN AMRO</option>
+                                <option value="keuze">SNS Bank</option>
+                            </select>
+                        </label>
+                    </div>
+                    <div class="ter">
+                        <input type="radio" id="betaal-keuze" name="kiezen" value="betaal-keuze">
+                        <label for="betaal-keuze"><h4>PayPal</h4></label>
+                    </div>
+                    <div class="ter">
+                        <input type="radio" id="betaal-keuze" name="kiezen" value="betaal-keuze">
+                        <label for="betaal-keuze"><h4>Mastercard</h4></label>
+                    </div>
+                </div>
+            </form>
+            <!--Overzicht stuk-->
+            <div class="ovz">
+                <div class="etd">
+                    <h4>Annuleren en terug naar de website</h4>
+                </div>
+                <h1>Overzicht</h1>
+                <div class="refr">
+                    <img src="./images/refresh.png" alt="refresh">
+                    <h1>Refresh<br> aantal: 1 <br> prijs: 20</h1>
+                </div>
+                <div class="streep">
+                </div>
+                <div class="tot">
+                    <h1>Totaal</h1>
+                    <h1><span class="paars">€20</span></h1>
+                </div>
+            </div>
+        </div>
+        <!--Betaal button-->
+        <div class="btn-betaal">
+            <a href="bedankt.html">Betalen</a>
+        </div>
+        <!--Popup winkelwagen--> 
+        <div id="popup2" class="winkelpop">
+        <div class="po">
+            <h1>Winkelwagen</h1>
+            <a class="dicht" href="#"><img src="./icons/Group 24.png" height="20px"></a>
+            <div class="up2">
+                <img src="./images/refresh.png" alt="refresh" height="120px">
+                <h4>Refresh<br> aantal: 1 <br> prijs: €20</h4>
+                <h3>verwijderen</h3>
+            </div>
+            <div class="streep">
+            </div>
+            <div class="totaaal">
+                <h3>totaal: €20</h3>
+            </div>
+            <div class="btn-winkelwagen">
+                <a href="betaling.html">Afrekenen</a>
+            </div>
+        </div>
+    </div>
+    </main>
+    
+</body>
+<!--Footer-->
+<footer>
+    <div class="streep">
+        
+    </div>
+    <div class="footer-social">
+        <h1>Volg ons</h1>
+        <ul class="socials">
+            <li><a href="#"><img src="./icons/Path 67.png" alt="YouTube" height="50px"></a></li>
+            <li><a href="#"><img src="./icons/Path 68.png" alt="LinkedIn" height="50px"></a></li>
+            <li><a href="#"><img src="./icons/Path 69.png" alt="Facebook" height="50px"></a></li>
+            <li><a href="#"><img src="./icons/Path 70.png" alt="Instagram" height="50px"></a></li>
+            <li><a href="#"><img src="./icons/Path 71.png" alt="Twitter" height="50px"></a></li>
+        </ul>
+    </div>
+    <div class="inschrijven">
+        <h1>nieuwsbrief</h1>
+        <p>Schrijf je in om updates te ontvangen over nieuwe producten en speciale aanbiedingen!</p>
+        <input type="email" placeholder="Vul hier je email" id="footer-email">
+        <input type="submit" value="Abonneer" id="footer-email-btn">
+    </div>
+    <div class="footer-logo">
+        <img src="/images/logo-wit.jpg" alt="logo"/>
+    </div>
+</footer>
+</html>

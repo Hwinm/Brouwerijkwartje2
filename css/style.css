@@ -1,0 +1,13 @@
+/*hier komen al mijn css bestanden*/
+@import "global.css";
+@import "home.css";
+@import "shopstyle.css";
+@import "shopstyle2.css";
+@import "overons.css";
+@import "betaling.css";
+@import "bedankt.css";
+@import "evenementen.css";
+@import "contact.css";
+
+/* Hier komen de linken */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');

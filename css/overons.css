@@ -1,0 +1,110 @@
+/* hero sectie */
+.overonsbanner{
+    display: flex;
+    width: 100%;
+    background-color: #F6F6F6;
+
+}
+.verhaal{
+    flex: 1; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.overonstekst h1{
+    text-align: center;
+    font-size: 40px;
+}
+/* Het verhaal witte stuk */
+.verhaalbalk{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-color:white;
+}
+.hetverhaal{
+    text-align: center;
+}
+.hetverhaal h1{
+    font-size: 40px;
+    color:black;
+}
+/* Algemeen stuk */
+.overonsplaatje{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+.overonsplaatje img{
+    height: auto;
+    width: 100%;
+}
+.verhaaltekst{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+}
+
+.verhaaltekst h1{
+    font-size: 30px; 
+}
+/* Wie zijn wij stuk */
+.infoverhaal{
+    flex: 1;
+    background-color: black;
+    color: white;
+}
+.infoverhaal h1{
+    color: #FCFC6D;
+}
+/* Brouwerij stuk */
+.infoverhaal2{
+    flex: 1;
+    background-color: white;
+}
+.infoverhaal2 h1{
+    color: #7167FF;
+    
+}
+/* Geschiedenis stuk */
+.infoverhaal3{
+    flex: 1;
+    background-color: black;
+    color: white;
+}
+.infoverhaal3 h1{
+    color: #C7EF72;
+    
+}
+
+/* Review consumenten */
+.reviewers{
+    text-align: center;
+    margin-top: 200px;
+}
+.reviewers h1{
+    font-size: 40px;
+}
+.review-overons{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+.photo2{
+    background-color: #F6F6F6;
+    width: 400px;
+    height: 500px;
+    margin-top: 100px;
+  }
+  .photo2 img{
+      height: 200px;
+      margin-top: 50px;
+  }
+  .photo2 h2{
+      margin-top: 50px;
+      color:#91009B;
+  }

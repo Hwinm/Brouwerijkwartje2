@@ -1,0 +1,324 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+h2{
+    font-weight:normal
+}
+/* Woord kleuren */
+.lichtblauw{
+    color: #3DB7FA;
+}
+.paars{
+    color: #91009B; 
+    
+}
+.oranje{
+    color: #FB6F33;
+}
+.blauw{
+    color: #7167FF;
+}
+/*navbar*/
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    width: 100%;
+    margin:auto;
+}
+/* Linker gedeelte navigatie */
+.primair{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+.nav-links{
+    list-style: none;
+}
+.nav-links li{
+    display: inline-block;
+    padding: 0 20px;
+    
+    }
+.nav-links li a{
+    color: black;
+    text-decoration: none;
+    
+}
+/* rechter gedeelte navigatie */
+.tweedenav{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    margin-right: 20px;
+}
+/* Huur button navigatie */
+.huren {
+    color: black;
+    font-size: 16px;
+    border: 2px solid;
+    border-color: black;
+    background-color: white;
+    padding: 5px 28px;
+    border-radius: 30px;
+    text-decoration: none; 
+    margin-right: 20px;
+    
+
+}
+.huren:hover{
+    background-color: black;
+    color: white; 
+}
+/* Popup winkelwagen */
+.winkelpop {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    visibility: hidden;
+    opacity: 0;
+  }
+.winkelpop:target {
+    visibility: visible;
+    opacity: 1;
+}
+    
+.po {
+    float: right;
+    padding: 20px;
+    background: #fff;
+    width: 500px;
+    height: 100%;
+    position: relative;
+}
+    
+   
+.po .dicht {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+}
+    
+.up2{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  
+}  
+.up2 h4{
+    margin-left: 50px;
+}
+.up2 h3{
+    margin-left: 150px;
+}
+.totaaal{
+    text-align: right;
+    margin-top: 50px;
+    position: absolute;
+    bottom: 150px;
+    right: 10%;
+}
+.box{
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    background-color:black;
+}
+.streep-winkelwagen{
+    height: 1px;
+    border-radius: 10px;
+    background-color: #707070;
+  }
+  
+
+/*buttons*/
+
+.cta{
+    text-align: center;
+    padding: 100px 0px 100px 0px;
+}
+.cta a{
+    color: black;
+    font-size: 16px;
+    border: 2px solid;
+    border-color: black;
+    background-color: transparent;
+    padding: 8px 25px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+.cta a:hover{
+    background-color: black;
+    color: white; 
+}
+.btn-winkelwagen{
+    position: absolute;
+    bottom: 60px;
+    left: 40%;
+}
+.btn-winkelwagen a{
+    color:white;
+    font-size: 16px;
+    border: none;
+    background-color: #91009B;
+    padding: 10px 35px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+.btn-winkelwagen a:hover{
+    border: 2px solid #91009B;
+    color: #91009B; 
+    background-color: transparent;
+}
+.btn-event{
+    margin-top: 100px;
+}
+.btn-event a{
+    color: black;
+    font-size: 16px;
+    border: 2px solid;
+    border-color: black;
+    background-color: transparent;
+    padding: 8px 25px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+.btn-event a:hover{
+    background-color: black;
+    color: white; 
+}
+.btn-bedankt{
+    text-align: center;
+    margin-top: 300px;
+}
+.btn-bedankt a{
+    color: white;
+    font-size: 16px;
+    background-color: #91009B;
+    padding: 12px 25px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+.btn-bedankt a:hover{
+    background-color: transparent;
+    color: #91009B; 
+    border: 2px solid #91009B;
+}
+.btn-shop{
+    margin: 50px 0;
+}
+.btn-shop a{
+    color: white;
+    font-size: 16px;
+    background-color: #91009B;
+    padding: 8px 35px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+.btn-shop a:hover{
+    background-color: transparent;
+    color: #91009B; 
+    border: 2px solid #91009B;
+}
+/*footer*/
+
+footer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;  
+    flex-direction: column;
+    margin-top: 200px;
+}
+
+.streep{
+    width: 90%;
+    height: 1px;
+    border-radius: 10px;
+    background-color: #707070;
+    margin: auto;
+}
+.footer-social{
+    margin-top: 100px;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+}
+
+.socials li{
+    margin: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.socials a{
+    text-decoration: none;
+    color:white;
+   
+}
+.socials a i{
+    font-size: 40px;
+    
+}
+.inschrijven{
+    margin-top: 50px;
+    width: 500px;
+    
+}
+#footer-email{
+    width: 400px;
+    height: 40px;
+    border-radius: 4px;
+    padding-left: 0.5rem;
+    margin-top: 50px;
+    font-family: 'Poppins', sans-serif;
+    border: 0.5px solid #707070;
+}
+#footer-email::placeholder{
+    color: #b1b1b1b1;
+}
+#footer-email-btn{
+    width: 100px;
+    height: 40px;
+    border-radius: 0px 4px 4px 0px;
+    background-color: #91009B;
+    color: white;
+    margin-left: -10px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+#footer-email-btn:hover{
+    background-color: white;
+    color: #91009B;
+    border-color: #91009B;
+    border: 2px solid;
+}
+.footer-logo{
+    margin: 100px;
+}
+.footer-logo img{
+    height: 200px;
+}
+

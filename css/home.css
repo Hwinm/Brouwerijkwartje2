@@ -1,0 +1,238 @@
+/*hero sectie*/
+.intro{
+    position: relative;
+    text-align: center;
+    margin-top: 50px;
+}
+.bannertekst{
+    position: absolute;
+    top: 30%;
+    left: 0;
+    right: 0;
+    color: #FB6F33;
+    font-size: 120px;
+    text-align: center;
+    margin: 0 auto;
+    width: 90%;
+    font-weight:600;
+    letter-spacing: 10px;
+}
+.tekst h1{
+    font-size: 40px;
+}
+
+.plaatje{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.plaatje img{
+    height: 500px;
+}
+
+/* Banner met drie flessen */
+.drie{
+    width: 100%;
+    margin: auto;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.tekst2{
+    padding: 10px;
+    width: 500px;
+    height: 1000px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+}
+
+.reclametekst{
+    color: #FB6F33;
+    text-align: center;
+}
+
+
+.reclame{
+    background-image: url(/images/driefles2.JPG);
+    background-size: contain;
+    background-position: center;
+    background-repeat: repeat-x;
+}
+
+/* Stukje inleiding over brouwerij kwartje */
+.presentation{
+    display: flex;
+    width: 100%;
+    margin:auto;
+    
+    margin-top: 300px;
+}
+.brouwerij{
+    flex: 1;
+}
+.tekst3 h1{
+    font-size: 30px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.plaatje2{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.plaatje2 img{
+    width: 100%;
+    height: auto;
+}
+
+.tekst3 p{
+    font-size: 20px;
+    font-weight: 500;
+    width: 80%;
+    margin-top: 50px;
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+/* Instagram */
+.social{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    align-items: center;
+    margin-top: 300px;
+
+}
+.insta{
+    flex: 1;
+}
+.plaatje3{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+.plaatje3 img{
+    height: 700px;
+}
+.instagram h1{
+    font-size: 30px;
+    width: 80%;
+    margin-top: 0px;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Banner met zes flessen */
+.zesfles{
+    position: relative;
+    text-align: center;
+    margin-top: 300px;
+}
+.zesflesplaatje{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.zesflesplaatje img{
+    height: 600px;
+}
+
+.zesflestekst h1{
+    font-size: 30px;
+    text-align: center;
+}
+.zesflestekst{
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* Banner bar huren*/
+.huurbar{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    align-items: center;
+    margin-top: 300px;
+}
+.bar{
+    flex: 1;
+   
+}
+.plaatje4{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+.plaatje4 img{
+    height: auto;
+    width: 100%;
+}
+.huur{
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.huur h1{
+    font-size: 30px;
+    text-align: center;
+   
+}
+/* Paarse balk*/
+.balk{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-color: #91009B;
+}
+.loctijd{
+    text-align: center;
+    
+}
+.loctijd h1{
+    font-size: 30px;
+    color: white;
+}
+/* Locatie en tijden */
+.info{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    align-items: center;
+    background-color: black;
+}
+.tijdlocatie{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.plaatje5{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+.plaatje5 img{
+    height: auto;
+    width: 100%;
+}
+
+.tijdtekst h1{
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    
+}
+

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Brouwerij Kwartje | Contact</title>
+</head>
+<body>
+    <header>
+        <!--navigatiebar-->
+        <div class="primair">
+            <div class="logo">
+                <a href="index.html"><img src="./images/logo-wit.jpg" alt="logo" height="80px"></a>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="overons.html">Over ons</a></li>
+                    <li><a href="evenementen.html">Evenementen</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="tweedenav">
+            <a href="#" class="huren">Huren</a> 
+            <a href="#popup2" class="winkelwagen"><img src="./icons/shopping-cart.png" alt="winkelwagen" height="25px"></a>
+        </div>
+        <!--Popup winkelwagen-->
+        <div id="popup2" class="winkelpop">
+            <div class="po">
+                <h1>Winkelwagen</h1>
+                <a class="dicht" href="#"><img src="./icons/Group 24.png" height="20px"></a>
+                <div class="up2">
+                    <img src="./images/refresh.png" alt="refresh" height="120px">
+                    <h4>Refresh<br> aantal: 1 <br> prijs: €20</h4>
+                    <h3>verwijderen</h3>
+                </div>
+                <div class="streep">
+                </div>
+                <div class="totaaal">
+                    <h3>totaal: €20</h3>
+                </div>
+                <div class="btn-winkelwagen">
+                    <a href="betaling.html">Afrekenen</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <!---hero sectie--->
+        <section class="contactbanner">
+            <div class="contactplaatje">
+                <img src="./images/bier-en-plank.png" alt="refresh"/>
+             </div>
+            <div class="contactstuk">
+                <div class="contacttekst">
+                    <h1><span class="oranje">Heeft u vragen?<br></span>Neem contact met ons op.</h1>
+                </div>
+            </div>
+         </section>
+         <!--Brouwerij email-->
+         <div class="contact-tekst">
+            <h1>Stuur een email naar <span class="oranje">bier@islekker.nl</span><br><br>Of<br><br>Vul de contactformulier hieronder in</h1>
+        </div>
+        <!--Contact formulier-->
+        <div class="contactform">
+            <form>
+                <!--Voornaam en achternaam-->
+                <div class="rij1">
+                    <div class="input-vak">
+                        <div class="invul">Voornaam*</div>
+                        <input type="text" required>
+                    </div> 
+                    <div class="input-vak">
+                        <div class="invul">Achternaam*</div>
+                        <input type="text" required>
+                    </div> 
+                </div>
+                <!--Email en telefoonnummer-->
+                <div class="rij2">
+                    <div class="input-vak">
+                        <div class="invul">Email*</div>
+                        <input type="text" required>
+                    </div> 
+                    <div class="input-vak">
+                        <div class="invul">Telefoonnummer*</div>
+                        <input type="text" required>
+                    </div>
+                </div> 
+                <div class="input-vak">
+                    <div class="invul">Onderwerp*</div>
+                    <input type="text" required>
+                </div>
+                <!--Opmerking-->
+                <div class="input-vak">
+                    <div class="invul">Opmerking</div>
+                    <textarea id="extra" name="extra" rows="20 "></textarea>
+                </div>
+                <div class="btn-betaal">
+                    <a href="#">Verzend</a>
+                </div>
+            </form>
+        </div>
+    </main>
+</body>
+<!--Footer-->
+<footer>
+    <div class="streep">
+        
+    </div>
+    <div class="footer-social">
+        <h1>Volg ons</h1>
+        <ul class="socials">
+            <li><a href="#"><img src="./icons/Path 67.png" alt="YouTube" height="50px"></a></li>
+            <li><a href="#"><img src="./icons/Path 68.png" alt="LinkedIn" height="50px"></a></li>
+            <li><a href="#"><img src="./icons/Path 69.png" alt="Facebook" height="50px"></a></li>
+            <li><a href="#"><img src="./icons/Path 70.png" alt="Instagram" height="50px"></a></li>
+            <li><a href="#"><img src="./icons/Path 71.png" alt="Twitter" height="50px"></a></li>
+        </ul>
+    </div>
+    <div class="inschrijven">
+        <h1>nieuwsbrief</h1>
+        <p>Schrijf je in om updates te ontvangen over nieuwe producten en speciale aanbiedingen!</p>
+        <input type="email" placeholder="Vul hier je email" id="footer-email">
+        <input type="submit" value="Abonneer" id="footer-email-btn">
+    </div>
+    <div class="footer-logo">
+        <img src="/images/logo-wit.jpg" alt="logo"/>
+    </div>
+</footer>
+</html>
